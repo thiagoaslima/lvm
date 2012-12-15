@@ -1,0 +1,20 @@
+PEOPLE FORM
+
+Dados Pessoais
+
+"curriculo lattes"      =>  lvm_people_lattes
+"nome completo"         =>  post_title
+"nome"                  =>  lvm_people_nome
+"sobrenome"             =>  lvm_people_sobrenome
+"citacao"               =>  lvm_people_citacao
+"sexo"                  =>  lvm_people-sexo
+"data de nascimento"    =>  lvm_people_nascimento
+
+Contatos
+
+"email"                 =>  lvm_people_email
+"endereço"              =>  lvm_people_endereco
+"telefone"              =>  lvm_people_telefone
+    "quantidade"            =>  _qtde
+    "tipo"                  =>  _tipo
+    "dado"                  =>  _dado
