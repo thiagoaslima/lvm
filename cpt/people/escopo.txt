@@ -4,10 +4,11 @@ Dados Pessoais
 
 "curriculo lattes"      =>  lvm_people_lattes
 "nome completo"         =>  post_title
-"nome"                  =>  lvm_people_nome
-"sobrenome"             =>  lvm_people_sobrenome
+"primeiro nome"         =>  lvm_people_primeironome
+"nome do meio"          =>  lvm_people_nomedomeio
+"último nome            =>  lvm_people_ultimonome
 "citacao"               =>  lvm_people_citacao
-"sexo"                  =>  lvm_people-sexo
+"sexo"                  =>  lvm_people_sexo
 "data de nascimento"    =>  lvm_people_nascimento
 
 Contatos

@@ -1,4 +1,5 @@
-<?php 
+<?php
+// configuração inicial
 if( isset($post->ID) || isset($post_id) ) {
     $metaDados   = get_post_meta($post_id);
 }
@@ -63,12 +64,12 @@ function cpt_lvm_people_admin_interface_init() {
 
 // Function to display meta box contents
 function cpt_lvm_people_dados_pessoais_html_def( $post_type ) {
-    require_once("metaboxes/dados_pessoais.php");
+    include_once("metaboxes/dados_pessoais.php");
 }
 
 // Function to display meta box contents
 function cpt_lvm_people_contatos_html_def( $post_type ) {
-    require_once("metaboxes/contatos.php");
+    include_once("metaboxes/contatos.php");
 }
 
 add_action( 
